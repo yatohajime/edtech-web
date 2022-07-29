@@ -4,12 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevTech.com</title>
     <!-- boostrap cdn links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light container">      <!-- navbar start -->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">DevTech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse custom-margin1" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#2">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#3">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#4">Success</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#5">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#6">Register</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-outline-primary" type="submit">Register</button>
+            </div>
+          </nav>        <!-- navbar end -->
+
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade container mt-4" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/cover/cover-1.png" class="d-block img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block custom-margin2">
+                  <h1 class="custom-fontSize1">Start learning skills for the <span class="custom-fontColor1">Digital</span>world</h1>
+                  <p class=" custom-fontSize2">Discover uniquely structered and well made courses best suitable for your fancy</p>
+                  <button class="btn btn-primary text-white">Get started</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/cover/cover-3.jpg" class="d-block img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block custom-margin2">
+                  <h1 class="custom-fontSize1">Reach your goal to be an<span class="custom-fontColor1"> expert</span> in a few weeks</h1>
+                  <p class=" custom-fontSize2">The course subject matter breifly touches upon all the necessary factors of a specific field to get you job ready in no time.</p>
+                  <button class="btn btn-primary text-white">Get started</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+    </header>
 </body>
 </html>
